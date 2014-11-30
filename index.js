@@ -16,9 +16,9 @@ if (!fs.existsSync(folder)) {
 // Handle all endpoints
 // Parameters:
 //  i - URL of the image to be processed
-//  s - Size of the outputted image, default is 500
-//  r - Radius of blur effect, default is 20
-//  q - Quality of the outputted image, default is 80
+//  s - Size (in pixels) of the outputted image, default is 500
+//  r - Radius (in pixels) of blur effect, default is 20
+//  q - Quality (in percentage) of the outputted image, default is 80
 //  f - If this parameter is set, cache will be bypassed
 app.get('*', function(req, res) {
     var url = req.query.i,
