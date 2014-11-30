@@ -19,8 +19,8 @@ You will now be able to access the app via `http://localhost:3000/?i=IMAGE_URL`.
 ## Interface
 All endpoints under the host will work, only the GET parameters will be considered.
 
-`i`: The URL of the image.
-`s`: The size (in pixels) of the processed image (default is 500).
-`r`: The radius (in pixels) of the blur effect (default is 20).
-`q`: The quality (in percentage) of the processed image (default is 80).
+`i`: The URL of the image.  
+`s`: The size (in pixels) of the processed image (default is 500).  
+`r`: The radius (in pixels) of the blur effect (default is 20).  
+`q`: The quality (in percentage) of the processed image (default is 80).  
 `f`: Whether to force a bypass of the cache (any value including an empty string will trigger a bypass).
